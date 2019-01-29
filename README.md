@@ -1,3 +1,4 @@
+# my study log
 # clj-echo-server
 
 FIXME: description
