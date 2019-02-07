@@ -33,7 +33,7 @@
 
 (defn echo-server
   [^Integer port-number]
-  (println "Please ennter command: telnet localhost" port-number)
+  (println "Please enter command: telnet localhost" port-number)
   (with-open [server (ServerSocket. port-number)
               socket (.accept server)
               input (io/input-stream socket)
